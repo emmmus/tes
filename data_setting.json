@@ -1,7 +1,7 @@
 {
     "market": [
         {
-            "nama": "kucoin",
+            "name_market": "kucoin",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
@@ -10,7 +10,7 @@
             "link_market": "https://www.kucoin.com/trade/"
         },
         {
-            "nama": "binance",
+            "name_market": "binance",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
