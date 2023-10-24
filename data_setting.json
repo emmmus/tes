@@ -34,17 +34,17 @@
     "chains": [
         {
             "id": "1",
-            "name": "eth",
+            "name_chain": "eth",
             "base_url": "https://bscscan.com/token/"
         },
         {
             "id": "56",
-            "name": "bsc",
+            "name_chain": "bsc",
             "base_url": "https://ethscan.com/token/"
         },
         {
             "id": "42161",
-            "name": "arb",
+            "name_chain": "arb",
             "base_url": "https://erbscan.io/token/"
         }
     ],
