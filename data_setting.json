@@ -1,0 +1,107 @@
+{
+    "market": [
+        {
+            "nama": "kucoin",
+            "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
+            "response": {
+                "bid": "data.bestBid",
+                "ask": "data.bestAsk"
+            },
+            "link_market": "https://www.kucoin.com/trade/"
+        },
+        {
+            "nama": "binance",
+            "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
+            "response": {
+                "bid": "data.bestBid",
+                "ask": "data.bestAsk"
+            },
+            "link_market": "https://www.kucoin.com/trade/"
+        }
+    ],
+    "server": [
+        "https://server15.povaf41444.workers.dev/?",
+        "https://server16.niromaf426.workers.dev/?",
+        "https://server17.kasoda9624.workers.dev/?",
+        "https://server18.befim19137.workers.dev/?",
+        "https://server19.gafigaf751.workers.dev/?",
+        "https://server20.gayomep515.workers.dev/?",
+        "https://server21.becibov328.workers.dev/?",
+        "https://server22.togid93865.workers.dev/?",
+        "https://server24.yaleve6056.workers.dev/?",
+        "https://server23.bagotof270.workers.dev/?"
+    ],
+    "chains": [
+        {
+            "id": "1",
+            "name": "eth",
+            "base_url": "https://bscscan.com/token/"
+        },
+        {
+            "id": "56",
+            "name": "bsc",
+            "base_url": "https://ethscan.com/token/"
+        },
+        {
+            "id": "42161",
+            "name": "arb",
+            "base_url": "https://erbscan.io/token/"
+        }
+    ],
+    "token": [
+        {
+            "name":"kucoin_bsc",
+            "wallet_stock":"0x111111111117dc0aa78b770fa6a738034120c302",
+            "token": [
+                {
+                    "symbol": "1INCHUSDT",
+                    "sc": "0x111111111117dc0aa78b770fa6a738034120c302",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.16
+                },
+                {
+                    "symbol": "AAVEUSDT",
+                    "sc": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.0011
+                },
+                {
+                    "symbol": "ADAUSDT",
+                    "sc": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.25
+                }
+            ]
+        },
+        {
+            "name":"kucoin_erc",
+            "wallet_stock":"0xfb6115445bff7b52feb98650c87f44907e58f802",
+            "token": [
+                {
+                    "symbol": "1INCHUSDT",
+                    "sc": "0x111111111117dc0aa78b770fa6a738034120c302",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.16
+                },
+                {
+                    "symbol": "AAVEUSDT",
+                    "sc": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.0011
+                },
+                {
+                    "symbol": "ADAUSDT",
+                    "sc": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.25
+                }
+            ]
+        }
+    ]
+}
