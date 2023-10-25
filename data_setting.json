@@ -35,7 +35,20 @@
         {
             "id": "1",
             "name_chain": "eth",
-            "base_url": "https://bscscan.com/token/"
+            "base_url": "https://bscscan.com/token/",
+            "pair": [{
+                "name_pair": "weth",
+                "sc_pair": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                "desimal_pair": "18"
+            },{
+                "name_pair": "usdt",
+                "sc_pair": "0x111111111117dc0aa78b770fa6a738034120c302",
+                "desimal_pair": "18"
+            },{
+                "name_pair": "bnt",
+                "sc_pair": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                "desimal_pair": "18"
+            }]
         },
         {
             "id": "56",
