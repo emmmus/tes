@@ -99,6 +99,69 @@
                     "desimal": 18,
                     "status": true,
                     "wd": 0.25
+                },
+                {
+                    "symbol": "1INCHUSDT",
+                    "sc": "0x111111111117dc0aa78b770fa6a738034120c302",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.16
+                },
+                {
+                    "symbol": "AAVEUSDT",
+                    "sc": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.0011
+                },
+                {
+                    "symbol": "ADAUSDT",
+                    "sc": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.25
+                },
+                {
+                    "symbol": "1INCHUSDT",
+                    "sc": "0x111111111117dc0aa78b770fa6a738034120c302",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.16
+                },
+                {
+                    "symbol": "AAVEUSDT",
+                    "sc": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.0011
+                },
+                {
+                    "symbol": "ADAUSDT",
+                    "sc": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.25
+                },
+                {
+                    "symbol": "1INCHUSDT",
+                    "sc": "0x111111111117dc0aa78b770fa6a738034120c302",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.16
+                },
+                {
+                    "symbol": "AAVEUSDT",
+                    "sc": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.0011
+                },
+                {
+                    "symbol": "ADAUSDT",
+                    "sc": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal": 18,
+                    "status": true,
+                    "wd": 0.25
                 }
             ]
         },
