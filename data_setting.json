@@ -53,7 +53,20 @@
         {
             "id": "56",
             "name_chain": "bsc",
-            "base_url": "https://ethscan.com/token/"
+            "base_url": "https://ethscan.com/token/",
+            "pair": [{
+                "name_pair": "bweth",
+                "sc_pair": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+                "desimal_pair": "18"
+            },{
+                "name_pair": "busdt",
+                "sc_pair": "0x111111111117dc0aa78b770fa6a738034120c302",
+                "desimal_pair": "18"
+            },{
+                "name_pair": "bbnt",
+                "sc_pair": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                "desimal_pair": "18"
+            }]
         },
         {
             "id": "42161",
