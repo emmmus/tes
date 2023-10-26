@@ -187,17 +187,22 @@
             "base_url": "https://ethscan.com/token/",
             "pairs": [
                 {
-                    "name_pair": "bweth",
+                    "name_pair": "ETH",
                     "sc_pair": "0xfb6115445bff7b52feb98650c87f44907e58f802",
                     "desimal_pair": "18"
                 },
                 {
-                    "name_pair": "busdt",
+                    "name_pair": "USDT",
                     "sc_pair": "0x111111111117dc0aa78b770fa6a738034120c302",
                     "desimal_pair": "18"
                 },
                 {
-                    "name_pair": "bbnt",
+                    "name_pair": "BNB",
+                    "sc_pair": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+                    "desimal_pair": "18"
+                },
+                {
+                    "name_pair": "BTC",
                     "sc_pair": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
                     "desimal_pair": "18"
                 }
