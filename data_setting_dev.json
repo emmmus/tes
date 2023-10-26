@@ -58,7 +58,7 @@
     ],
     "servers": [
         {
-            "server_chain": "BSC",
+            "server": "BSC",
             "sever_data": [
                 {
                     "name_server": "1inch",
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "server_chain": "ETH",
+            "server": "ETH",
             "sever_data": [
                 {
                     "name_server": "1inch",
@@ -161,7 +161,7 @@
     "chains": [
         {
             "id": "1",
-            "name_chain": "ETH",
+            "name": "ETH",
             "base_url": "https://bscscan.com/token/",
             "pairs": [
                 {
@@ -183,7 +183,7 @@
         },
         {
             "id": "56",
-            "name_chain": "BSC",
+            "name": "BSC",
             "base_url": "https://ethscan.com/token/",
             "pairs": [
                 {
