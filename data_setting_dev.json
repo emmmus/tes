@@ -59,7 +59,7 @@
     "servers": [
         {
             "server": "BSC",
-            "sever_data": [
+            "server_data": [
                 {
                     "name_server": "1inch",
                     "list_server": [
@@ -109,7 +109,7 @@
         },
         {
             "server": "ETH",
-            "sever_data": [
+            "server_data": [
                 {
                     "name_server": "1inch",
                     "list_server": [
