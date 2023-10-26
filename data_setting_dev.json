@@ -22,7 +22,7 @@
     "servers": [
         {
             "server_chain": "bsc",
-            "sever_data": [
+            "server_data": [
                 {
                     "name_server": "1inch",
                     "list_server": [
