@@ -1,7 +1,7 @@
 {
     "markets": [
         {
-            "name": "kucoin",
+            "name": "KUCOIN",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
@@ -15,7 +15,7 @@
             "link": "https://www.kucoin.com/trade/"
         },
         {
-            "name": "binance",
+            "name": "BINANCE",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
