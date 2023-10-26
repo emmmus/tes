@@ -1,28 +1,65 @@
 {
     "markets": [
         {
-            "name_market": "kucoin",
+            "name": "kucoin",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
                 "ask": "data.bestAsk"
             },
-            "link_market": "https://www.kucoin.com/trade/"
+            "pairs": [
+                "USDT",
+                "BTC",
+                "ETH"
+            ],
+            "link": "https://www.kucoin.com/trade/"
         },
         {
-            "name_market": "binance",
+            "name": "binance",
             "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=",
             "response": {
                 "bid": "data.bestBid",
                 "ask": "data.bestAsk"
             },
-            "link_market": "https://www.kucoin.com/trade/"
+            "pairs": [
+                "USDT",
+                "BTC",
+                "ETH",
+                "BNB"
+            ],
+            "link": "https://www.kucoin.com/trade/"
+        },
+        {
+            "name": "INDODAX",
+            "endpoint": "https://www.okx.com/api/v5/market/ticker?instId=",
+            "response": {
+                "bid": "data[0].bidPx,",
+                "ask": "data[0].askPx"
+            },
+            "pairs": [
+                "USDT",
+                "BTC"
+            ],
+            "link": "https://www.okx.com/trade-spot/"
+        },
+        {
+            "name": "OKEX",
+            "endpoint": "https://www.okx.com/api/v5/market/ticker?instId=",
+            "response": {
+                "bid": "data[0].bidPx,",
+                "ask": "data[0].askPx"
+            },
+            "pairs": [
+                "USDT",
+                "BTC"
+            ],
+            "link": "https://www.okx.com/trade-spot/"
         }
     ],
     "servers": [
         {
             "server_chain": "bsc",
-            "server_data": [
+            "sever_data": [
                 {
                     "name_server": "1inch",
                     "list_server": [
@@ -168,13 +205,25 @@
         },
         {
             "id": "42161",
-            "name_chain": "arb",
-            "base_url": "https://erbscan.io/token/"
+            "name": "arb",
+            "base_url": "https://erbscan.io/token/",
+            "pairs": [
+                {
+                    "name": "USDT",
+                    "sc": "0x55d398326f99059fF775485246999027B3197955",
+                    "desimal": "18"
+                },
+                {
+                    "name": "BNB",
+                    "sc": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                    "desimal": "18"
+                }
+            ]
         }
     ],
     "tokens": [
         {
-            "name": "kucoin_bsc",
+            "name": "BINANCE_BSC",
             "wallet_stock": "0x111111111117dc0aa78b770fa6a738034120c302",
             "list_token": [
                 {
@@ -285,7 +334,7 @@
             ]
         },
         {
-            "name": "kucoin_erc",
+            "name": "KUCOIN_BSC",
             "wallet_stock": "0xfb6115445bff7b52feb98650c87f44907e58f802",
             "list_token": [
                 {
