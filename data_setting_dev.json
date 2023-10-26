@@ -58,7 +58,7 @@
     ],
     "servers": [
         {
-            "server_chain": "bsc",
+            "server_chain": "BSC",
             "sever_data": [
                 {
                     "name_server": "1inch",
@@ -108,7 +108,7 @@
             ]
         },
         {
-            "server_chain": "erc",
+            "server_chain": "ETH",
             "sever_data": [
                 {
                     "name_server": "1inch",
@@ -161,7 +161,7 @@
     "chains": [
         {
             "id": "1",
-            "name_chain": "eth",
+            "name_chain": "ETH",
             "base_url": "https://bscscan.com/token/",
             "pairs": [
                 {
@@ -183,7 +183,7 @@
         },
         {
             "id": "56",
-            "name_chain": "bsc",
+            "name_chain": "BSC",
             "base_url": "https://ethscan.com/token/",
             "pairs": [
                 {
@@ -205,7 +205,7 @@
         },
         {
             "id": "42161",
-            "name": "arb",
+            "name": "ARB",
             "base_url": "https://erbscan.io/token/",
             "pairs": [
                 {
